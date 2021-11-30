@@ -11,9 +11,9 @@ function pegarCupomAleatorio(){
 function copiarCodigo(){
   var code = document.getElementById('codigo--raspadinha');
 
-  navigator.clipboard.writeText(code.value);
+  code.select();
 
-  alert("Texto copiado:" + code.value);
+  document.execCommand("Copy");
 }
 
 var cupom = pegarCupomAleatorio();
