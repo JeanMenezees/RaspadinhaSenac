@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/raspadinha.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Raspadinha</title>
+</head>
+<body>
+    <p class="frase--raspadinha">Frase para raspar</p>
+    <div class="main">
+        <div id="pulso"></div>
+        <div id="raspadinha">
+        </div>
+        <div class="input--copiar">
+            <input type="text" value="" id="codigo--raspadinha">
+            <img id="copiar" src="../Imagens/copiar.svg" alt="Icone de copiar" onclick="copiarCodigo()">
+        </div>
+        <!-- <button id="copiar" onclick="copiarCodigo()">Copiar codigo</button> -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="../js/wScratchPad.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
